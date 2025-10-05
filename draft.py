@@ -1,16 +1,13 @@
 #from collections.abc import async_generator
 
-import sys
-sys.platform
-print(sys.version)
-# class Human:
-#     def __init__(self, gender: str, age: int):
-#         self.gender = gender
-#         self.age = age
-#
-# h = Human (gender='W', age=35)
-# print(h.gender)
-# print(h.age)
+class Human:
+     def __init__(self, gender: str, age: int):
+         self.gender = gender
+         self.age = age
+
+h = Human (gender='W', age=35)
+print(h.gender)
+print(h.age)
 
 # x = int(input('Введите число:'))
 # if x == 5:
