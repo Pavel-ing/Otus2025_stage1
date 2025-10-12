@@ -15,9 +15,3 @@ class Circle(Figure):
     @property
     def area(self):
         return 3.14 * self.r ** 2
-
-c = Circle(10)
-print(c.area)
-t = Triangle(13,14,15)
-print(t.area)
-print(t.add_area(c))

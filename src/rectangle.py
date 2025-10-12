@@ -14,7 +14,3 @@ class Rectangle(Figure):
     @property
     def perimeter(self):
         return (self.a + self.b)*2
-
-# r = Rectangle(3, 5)
-# print(r.area)
-# print(r.perimeter)

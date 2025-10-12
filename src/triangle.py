@@ -18,7 +18,3 @@ class Triangle(Figure):
     def area(self):
         p = self.perimeter / 2
         return (p * (p - self.a) * (p - self.b) * (p - self.c)) ** 0.5
-
-# t = Triangle(3, 3, 3)
-# print(t.perimeter)
-# print(t.area)
