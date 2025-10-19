@@ -1,6 +1,4 @@
 from figure import Figure
-# from src.triangle import Triangle
-
 
 class Circle(Figure):
     def __init__(self,r):
