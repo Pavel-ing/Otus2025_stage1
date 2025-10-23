@@ -1,4 +1,5 @@
 from figure import Figure
+import math
 
 class Circle(Figure):
     def __init__(self,r):
@@ -8,8 +9,8 @@ class Circle(Figure):
 
     @property
     def perimeter(self):
-        return 2 * 3.14 * self.r
+        return 2 * math.pi * self.r
 
     @property
     def area(self):
-        return 3.14 * self.r ** 2
+        return math.pi * self.r ** 2
